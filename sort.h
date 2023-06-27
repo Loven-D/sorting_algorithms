@@ -32,4 +32,6 @@ void switch_nodes(listint_t **list, listint_t **p);
 void quicksort_recursive(int *array, int low, int high);
 int lomuto_partition(int *array, int low, int high, size_t size);
 void swap(int *a, int *b);
+void counting_sort(int *array, size_t size);
+
 #endif
