@@ -33,5 +33,9 @@ void quicksort_recursive(int *array, int low, int high);
 int lomuto_partition(int *array, int low, int high, size_t size);
 void swap(int *a, int *b);
 void counting_sort(int *array, size_t size);
-
+void merge_sort(int *array, size_t size);
+void merge_recursion(int *arr, int *array, size_t left, size_t right);
+void merge_subarray(int *arr, int *array, size_t left, size_t middle, size_t right);
+void heap_sort(int *array, size_t size);
+void heapify(int *array, size_t s, size_t root, size_t size);
 #endif
