@@ -43,4 +43,7 @@ void count_sort_LSD(int *array, size_t size, size_t lsd);
 void bitonic_sort(int *array, size_t size);
 void bitonic_recursion(int *array, int l, int r, int direction, size_t size);
 void bitonic_merge(int *array, int l, int r, int direction);
+void quick_sort_hoare(int *array, size_t size);
+void quick_recursion(int *array, int left, int right, size_t size);
+int partition(int *array, int left, int right, size_t size);
 #endif
